@@ -1,0 +1,91 @@
+/*
+//-------------------------------------------------------
+// -> Effect Web MuOnline
+// -> Admin Control Panel
+// -> Powered by Erick-Master
+// -> CTM TEAM Softwares
+// -> www.ctmts.com.br
+// -> AdminCP Custom Style
+//-------------------------------------------------------
+*/
+
+.error {
+	background: #fad8d8 url('../images/icons/error.png') no-repeat  5px !important;
+	border: 1px solid #F13737;
+	margin: 4px;
+	padding: 5px;
+	padding-left: 25px;
+	color: #F13737;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+}
+.success {
+    background: #DEF2DB url('../images/icons/success.png') no-repeat  5px !important;
+    border: 1px solid #73C867;
+	margin: 4px;
+	padding: 5px;
+	padding-left: 25px;
+	color: #238122;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+}
+.info {
+    background: #80DEFD url('../images/icons/info.png') no-repeat  5px !important;
+    border: 1px solid #09c;
+	margin: 4px;
+	padding: 5px;
+	padding-left: 25px;
+	color: #06C;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+}
+.warning {
+    background: #FFF7CB url('../images/icons/warning.png') no-repeat  5px !important;
+    border: 1px solid #EDDC75;
+	margin: 4px;
+	padding: 5px;
+	padding-left: 25px;
+	color: #DB7701;
+	border-radius:5px;
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px;
+}
+span.yesno_yes,span.yesno_no
+{
+	display:inline-block;
+	padding:3px;
+	min-width:50px;
+	max-width:70px;
+	text-align:center;
+}
+span.yesno_yes input, span.yesno_no input
+{
+	margin-right:10px;
+}
+span.yesno_yes
+{
+	background:#e3f6e5;
+	border:1px solid #b4e3b9;
+	border-right:0;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+	-moz-border-radius-top-left:6px;
+	-moz-border-radius-bottom-left:6px;
+	-webkit-border-top-left-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+}
+span.yesno_no
+{
+	background:#f6e3e3;
+	border:1px solid #e3b4b4;
+	border-left:0;
+	border-top-right-radius:6px;
+	border-bottom-right-radius:6px;
+	-moz-border-radius-top-right:6px;
+	-moz-border-radius-bottom-right:6px;
+	-webkit-border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+}

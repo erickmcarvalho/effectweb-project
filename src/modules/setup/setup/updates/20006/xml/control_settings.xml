@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings creator="(CTM) Cetemaster Services" type="settings" system="Effect Web 2" update="22/10/2013">
+	<line>
+		<command>insert</command>
+		<insert>after</insert>
+		<syntax>
+define("COIN_USE_CACHE", FALSE); // -- Utilizar o sistema de cache, recomendado para servidores com CashShop (Padrão -> FALSE)
+		</syntax>
+		<search>
+define("COIN_LOGIN", "(:any)"); // -- Coluna de Logins para Golds (Padrão -> memb___id)
+		</search>
+	</line>
+</settings>

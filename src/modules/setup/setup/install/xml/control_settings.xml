@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings creator="(CTM) Cetemaster Services" file="Settings.php" system="Effect Web 2" update="30/04/2012">
+	<line syntax="define({!#!}MSSQL_HOSTNAME{!#!}, {!#!}$1{!#!});">
+		<argument type="session" param="db_settings:sql_host" />
+	</line>
+	<line syntax="define({!#!}MSSQL_HOSTPORT{!#!}, $1);">
+		<argument type="session" param="db_settings:sql_port" />
+	</line>
+	<line syntax="define({!#!}MSSQL_USERNAME{!#!}, {!#!}$1{!#!});">
+		<argument type="session" param="db_settings:sql_user" />
+	</line>
+	<line syntax="define({!#!}MSSQL_PASSWORD{!#!}, {!#!}$1{!#!});">
+		<argument type="session" param="db_settings:sql_pass" />
+	</line>
+	<line syntax="define({!#!}CTMEW_CORE{!#!}, {!#!}$1{!#!});">
+		<argument type="session" param="db_settings:sql_db" />
+	</line>
+</settings>

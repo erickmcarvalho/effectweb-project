@@ -1,0 +1,353 @@
+@charset "utf-8";
+/*********************************************************
+** CTM Install Styles Sheet
+** By:LucasHP - CTM Team Softwares
+** lucashp@lhpdesigner.com.br / lucashp@ctmts.com.br
+*********************************************************/
+body
+{
+	background:#222 url(../images/design/bg.gif) repeat;
+	font:11px Tahoma, Geneva, sans-serif;
+}
+#all
+{
+	display:block;
+	clear:both;
+	margin:0 auto;
+	width:960px;
+}
+#all:after, #content:after, #section:after
+{
+	display:block;
+	clear:both;
+	height:0;
+	content:".";
+	overflow:hidden;
+	visibility:hidden;
+}
+#top
+{
+	display:block;
+	height:100px;
+	margin:0 0 5px 0;
+}
+#top h1
+{
+	display:block;
+	clear:both;
+	width:400px;
+	height:100px;
+	background:url(../images/design/logo.png) no-repeat;
+}
+#content
+{
+	dislplay:block;
+	background:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	padding:0;
+}
+#aside
+{
+	display:block;
+	float:left;
+	width:200px;
+	margin:5px;
+}
+.box-aside
+{
+	display:block;
+	clear:both;
+	padding:5px;
+	background:#222 url(../images/design/bg.gif) repeat;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:200px;
+	margin:0 0 3px 0;
+}
+p
+{
+	display:block;
+	margin:5px;
+	padding:5px;
+	color:#666;
+}
+strong
+{
+	font-weight:bold;
+	color:#333;
+}
+a
+{
+	color:#57a000;
+	text-decoration:none;
+}
+a:hover
+{
+	color:#060;
+}
+a:active
+{
+	color:#063;
+}
+h2
+{
+	display:block;
+	clear:both;
+	border-bottom:1px dotted #999;
+	padding:2px;
+	font:bold 12px Tahoma, Geneva, sans-serif;
+	text-transform:uppercase;
+	color:#030;
+	margin:8px 5px;
+}
+#section
+{
+	display:block;
+	float:left;
+	margin:5px 5px 5px 10px;
+	background:#fff;
+	border:1px solid #ddd;
+	width:732px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.header-section
+{
+	display:block;
+	clear:both;
+	margin:0;
+	padding:10px;
+	height:20px;
+	background:url(../images/design/gradient.gif) repeat-x;
+	border-bottom:1px solid #ddd;
+	font:bold 14px Tahoma, Geneva, sans-serif;
+	color:#333;
+	text-transform:uppercase;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}
+.attention
+{
+	background:#fffbcc url(../images/icons/exclamation.png) 10px 11px no-repeat;
+	border:1px solid #e6db55;
+	color:#666452;
+	display:block;
+	margin:5px;
+	line-height:25px;
+	clear:both;
+	padding:5px 35px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.information
+{
+	background:#dbe3ff url(../images/icons/information.png) 10px 11px no-repeat;
+	border:1px solid #a2b4ee;
+	color:#585b66;
+	display:block;
+	margin:5px;
+	line-height:25px;
+	clear:both;
+	padding:5px 35px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.success
+{
+	background:#d5ffce url(../images/icons/success.png) 10px 11px no-repeat;
+	border:1px solid #9adf8f;
+	color:#556652;
+	display:block;
+	margin:5px;
+	line-height:25px;
+	clear:both;
+	padding:5px 35px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.error
+{
+	background:#ffcece url(../images/icons/error.png) 10px 11px no-repeat;
+	border:1px solid #df8f8f;
+	color:#665252;
+	display:block;
+	margin:5px;
+	line-height:25px;
+	clear:both;
+	padding:5px 35px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.eula
+{
+	height:210px;
+	border:1px solid #76774C;
+	background-color:#FDFDD3;
+	padding:5px;
+	overflow:auto;
+}
+pre
+{
+	padding:8px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+pre
+{
+	color:#d94a26;
+	padding:5px;
+	background:#FDFDD3;
+	margin:5px;
+	border:1px solid #999;
+	width: 690px;
+	overflow:auto;
+}
+#footer
+{
+	display:block;
+	clear:both;
+	font:bold 10px Tahoma, Geneva, sans-serif;
+	color:#999;
+}
+form label
+{
+	display:block;
+	padding:0 0 10px;
+	font-weight:bold;
+}
+form fieldset
+{
+	margin:5px;
+	border:1px solid #ddd;
+}
+form fieldset legend
+{
+	font-weight:bold;
+	margin-bottom:5px;
+	padding:5px 5px 0 5px;
+}
+small
+{
+	font-size:9px;
+	color:#777;
+}
+form input.text-input, form select, form textarea
+{
+	padding:6px;
+	font-size:13px;
+	background:#fff;
+	border:1px solid #d5d5d5;
+	color:#666;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+form select
+{
+	padding:4px;
+	background:#fff;
+}
+form .small-input
+{
+	width:25% !important;
+}
+form .medium-input
+{
+	width:50% !important;
+}
+form .large-input
+{
+	width:97.5% !important;
+	font-size:16px !important;
+	padding:8px !important;
+}
+form textarea
+{
+	width:97.5% !important;
+	font-family:Arial, Helvetica, sans-serif;
+}
+form input[type="checkbox"], form input[type="radio"]
+{
+	padding:0;
+	background:none;
+	border:0;
+}
+.button, input.button
+{
+	display:block;
+	background:url(../images/design/green.gif) repeat-x;
+	height:30px;
+	padding:5px 10px;
+	font:bold 10px Tahoma, Geneva, sans-serif;
+	color:#fff;
+	border:1px solid #060;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	cursor:pointer;
+}
+.button:hover, input.button:hover
+{
+	background:#63a800;
+	text-shadow:0 0 3px #063;
+}
+.box-aside ul
+{
+	display:block;
+	margin:5px;
+	padding:0;
+}
+.box-aside ul li
+{
+	display:block;
+	clear:both;
+	font:bold 11px Tahoma, Geneva, sans-serif;
+	color:#ddd;
+	border-bottom:1px dotted #333;
+	padding:5px;
+	margin:2px;
+}
+ul.install li
+{
+	background:url(../images/icons/pipe.png) no-repeat left;
+	padding-left:22px;
+}
+ul.install li.i-seccess
+{
+	background:url(../images/icons/success.png) no-repeat left !important;
+}
+ul.install li.i-error
+{
+	background:url(../images/icons/error.png) no-repeat left !important;
+}
+ul.install li.i-attention
+{
+	background:url(../images/icons/exclamation.png) no-repeat left !important;
+}
+ul.install li.installing
+{
+	background:url(../images/icons/arrow.png) no-repeat left !important;
+}
+.header-aside
+{
+	display:block;
+	clear:both;
+	margin:2px;
+	padding:10px;
+	background:#111;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#63a800;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}

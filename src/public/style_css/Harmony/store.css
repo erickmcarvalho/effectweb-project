@@ -1,0 +1,76 @@
+/*************************************************************/
+/* Effect Web 2 - Harmony Template                           */
+/*************************************************************/
+/* CSS Document: Store                                       */
+/* Last update: 11/04/2012 - 00:59h                          */
+/* Author: $CTM['LucasHP']                                   */
+/*************************************************************/
+/* Cetemaster Services, Limited                              */
+/* Copyright (c) 2010-2013. All Rights Reserved,             */
+/* www.cetemaster.com.br / www.cetemaster.com                */
+/*************************************************************/
+
+#store ul.menu
+{
+	display:block;
+	clear:both;
+	padding:2px;
+	margin:5px; /*background:url(../../style_images/Harmony/transparent-01.png);*/
+}
+#store ul.menu li
+{
+	display:block;
+	float: left;
+	list-style:none;
+	font:bold 10px Tahoma, Geneva, sans-serif;
+	color:#444;
+}
+#store ul.menu li a
+{
+	display:block;
+	background:#fff;
+	margin:3px;
+	padding:5px 10px;
+	list-style:none;
+	font:bold 10px Tahoma, Geneva, sans-serif;
+	color:#444;
+	border:1px solid #ddd;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+#store ul.menu li a:hover
+{
+	background:#137874;
+	color:#fff;
+}
+#store #info-acc
+{
+	width:710px;
+	margin:5px;
+	display:block;
+	float:right;
+	padding:5px 10px;
+	border:1px solid #dedede;
+	border-radius:8px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	background:#fefefe;
+	position:relative;
+}
+#store #info-acc p
+{
+	font:9px Verdana, Geneva, sans-serif;
+	color:#909090;
+	margin:5px;
+	padding:0;
+	float:left;
+}
+#store #info-acc form
+{
+	float:right;
+}
+#store #info-acc form select
+{
+	width:130px;
+}

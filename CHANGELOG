@@ -1,0 +1,184 @@
+19/02/2014 - Beta 8
+
+- Correções:
+
+- [Public] Cadastro: Fixado bug do link rápido de confirmação por e-mail;
+
+- Alterações:
+
+- [Kernel] License: Alterado o endereçamento para o novo servidor de licença;
+- [Kernel] License: Alterado o método de autenticação remota;
+
+- Teste:
+
+- [Kernel] License: Testes para corrigir o "Fatal Error";
+
+22/10/2013 - Beta 7
+
+- Correções:
+
+- [Kernel] Template: Fixado bug na validação de licença dos templates premium;
+- [Kernel] License: Refeito base da estrutura do sistema de licença com o objetivo de corrigir incompatibilidade com alguns servidores;
+
+- Adicionais:
+
+- [ALL] Adicionado sistema de "cache" para moedas, recomendado para servidores com CashShop;
+- [Control] Adicionado configuração para habilitar o cache de moedas;
+- [CronJob] Adicionado nova task responsável por transferir as moedas do cache para as colunas originais;
+
+- Alterações:
+
+- [ALL] Alterado a estrutura de moedas para uma tabela separada, evitando problemas com a coluna w_Coin do CashShop;
+
+14/09/2013 - Beta 6
+
+- Correções:
+
+- [Public] Home: Fixado bug nos títulos das notícias via fórum
+- [Public] Vantagens VIP: Fixado bug onde exibia todas as vantagens vip em negativo
+- [Public] Ranking: Fixado bug da página de ranking que auto carregava no modo Ajax
+- [AdminCP] Members: Fixado bug da opção de gerenciar VIP da conta
+
+- Adicionais:
+
+- [Public] Autenticação: Adicionado opção na Settings.php para redirecionar o login ao painel de controle
+- [Public] Adicionado perfil do personagem (configurável) e da guild
+- [Kernel] Adicionado suporte ao "fsockopen" nas conexões de sockets (ausência do php_sockets)
+
+- Alterações:
+
+- [Public] Painel de Controle: Alterado redirecionamento da opção de redirecionar ao gerenciamento de personagem ao selecioná-lo
+- [Public] Painel de Controle: Atualizado a opção de gerenciar perfil ao novo formato (exibir, resets, mapa e status)
+
+19/07/2013 - Beta 5
+
+- Correções:
+
+- [Kernel] Template: Fixado bug na validação de licença dos templates premium;
+- [Kernel] License: Refeito base da estrutura do sistema de licença com o objetivo de corrigir incompatibilidade com alguns servidores;
+
+- Alterações:
+
+- [ALL] Alterado a estrutura de moedas para uma tabela separada, evitando problemas com a coluna w_Coin do CashShop;
+
+- Adicionais:
+
+- [ALL] Adicionado sistema de "cache" para moedas, recomendado para servidores com CashShop;
+- [Control] Adicionado configuração para habilitar o cache de moedas;
+- [CronJob] Adicionado nova task responsável por transferir as moedas do cache para as colunas originais;
+
+14/09/2013 - Beta 6
+
+- Correções:
+
+- [Public] Home: Fixado bug nos títulos das notícias via fórum
+- [Public] Vantagens VIP: Fixado bug onde exibia todas as vantagens vip em negativo
+- [Public] Ranking: Fixado bug da página de ranking que auto carregava no modo Ajax
+- [AdminCP] Members: Fixado bug da opção de gerenciar VIP da conta
+
+- Adicionais:
+
+- [Public] Autenticação: Adicionado opção na Settings.php para redirecionar o login ao painel de controle
+- [Public] Adicionado perfil do personagem (configurável) e da guild
+- [Kernel] Adicionado suporte ao "fsockopen" nas conexões de sockets (ausência do php_sockets)
+
+- Alterações:
+
+- [Public] Painel de Controle: Alterado redirecionamento da opção de redirecionar ao gerenciamento de personagem ao selecioná-lo
+- [Public] Painel de Controle: Atualizado a opção de gerenciar perfil ao novo formato (exibir, resets, mapa e status)
+
+19/07/2013 - Beta 5
+
+- Correções:
+
+- [Core] Ajax Full Loading Page: Fixado problema do redirecionamento ao deslogar a conta do site;
+- [Core] Ajax Full Loading Page: Fixado problema ao carregar a página "Informações";
+- [Template] Fixado bug de compatibilidade com JavaScript (Ranking, User Panel: Tickets/Invoices/BuyVIP, Register)
+- [Template] Painel de Controle: Fixado erro no JavaScript do tooltip, onde duplicava o nome do VIP 1;
+- [Public] Cadastro: Fixado erro na mensagem de bonificação de moeda, na qual exibia o nome do VIP;
+- [Public] Painel de Controle: Corrigido problema de ausência da opção para selecionar o personagem ao abrir ticket;
+- [Public] Fixado bug do armazenamento do Record Online que apenas atualizada o número de onlines;
+- [Public] Fixado bug da contagem de contas e personagens cadastrados;
+
+- Alterações:
+
+- [Public] Painel de Controle: Ao selecionar personagem será direcionado ao gerenciamento do mesmo;
+
+- Adicionais:
+
+- [Installer] Adicionado opção de "reparo" do sistema, para casos como reset da database MuOnline (admin/installer/?app=repair);
+- [Template] Painel de Controle: A "tab" das opções agora é selecionada automaticamente de acordo a página acessada;
+- [Template] Global Login: Link de redirecionamento padrão ao Painel de Controle;
+
+- Outros:
+
+- Atualizado CTM Product Install (v1.0 => v1.1);
+- Atualizado jQuery Plugin (v1.6.4 => v1.8.3);
+
+09/06/2013 - Beta 4
+
+- Correções:
+
+- [Core] Corrigido erro que impedia o debug do servidor e do MSSQL;
+- [Core] Corrigido erro ao gerar logs do MSSQL na qual criava uma pasta com o nome ".log";
+- [Public] Painel de Controle: Fixado problema que bugava o item ao transferir do Virtual Vault (Season 2 ou servidores SCFMT/TT);
+- [Public] Notícias: Fixado problema das aspas no visualizar notícia (exemplo: falhas nos links);
+- [CronJob] Fixado problema dos rankings de personagens serem gerados em ordem inválidas {synchronizeRanking.task.php};
+- [AdminCP] Fixado problema do manuseio de arquivos ".zip", agora utilizando corretamente a classe interna e preferencialmente do PHP;
+
+- Adicionais:
+
+- [Kernel] Adicionado fix de Item Hex para versões Season 2 ou superior (SCFMT/TT);
+- [Installer] Adicionado o sistema de atualização (upgrade) que antes se encontrava desativado, obrigando o uso de reinstalações a cada update;
+- [Package] Adicionado guia de atualização;
+
+- Alterações:
+
+- [Public] Painel de Controle: Transferida a tabela do Virtual Vault para "EffectWebVirtualVault" na MuOnline, evitando perca de itens em reinstalações do site;
+- [Installer] Querys refeitas para resolver problema de Collation na instalação do site, na qual não instalava conforme o padrão do SQL;
+
+07/06/2013 - Beta 3
+
+- Correções:
+
+- [ALL] Resolvido problema de line break (quebra de linhas) em servidores Linux;
+- [Kernel] Resolvido problema da validação de XML em servidores Linux;
+- [Kernel] Resolvido problema na exportação de templates em servidores Linux;
+- [Kernel] Resolvido problema do carregamento de módulos no AdminCP em servidores Linux;
+- [AdminCP] Sistema: Resolvido problema do corte de texto ao baixar logs em servidores Linux;
+- [AdminCP] Corrigido erros de gramática;
+- [Public] Header: Corrigido contagem de contas bandas (interferência com contas em validação);
+
+- Alterações:
+
+- [AdminCP] Alterado informações na skin;
+- [Harmony] Cadastro: Corrigido textos na data de nascimento;
+
+- Adicionais:
+
+- [Kernel:JS] Cadastro: Adicionado textos de idioma no nível de senha;
+
+06/06/2013 - Beta 2
+
+- Correções:
+
+- [CronJob] Resolvido problema da constante EW_BUILD_KEY {synchronizeRanking.task.php}
+- [Installer] Resolvido problema da página final da instalação;
+- [Installer] Alterado os termos de licença (ainda em formulação);
+- [Package] Resolvido problema da importação de template (AdminCP e Installer);
+- [AdminCP] Login: Resolvido problema ao logar no AdminCP em alguns servidores de hospedagem;
+- [AdminCP] Licença: Resolvido problema da página de ativação de licença;
+- [AdminCP] Membros: Resolvido problema da abertura de janelas ao gerenciar conta e personagem;
+- [AdminCP] Servidor: Resolvido problema da data e hora de conexão ao exibir usuários online;
+- [Public] Resolvido problema da mensagem 'failed' ao acessar o site sem template instalado;
+- [Public] Resolvido problema da abertura de janelas;
+
+- Alterações:
+
+- [Core] Alterado toda a estrutura de logs (control/Logs);
+- [Core] Alterado configurações padrão do initdata.php;
+- [Package] Template Harmony alterado;
+
+- Adicionais:
+
+- [Core] Adicionado modo "Debug" do sistema, gerando logs em control/Logs/Debug (basta habilitar no initdata.php);

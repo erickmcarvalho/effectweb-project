@@ -1,0 +1,76 @@
+/*************************************************************/
+/* Effect Web 2 - Harmony Template                           */
+/*************************************************************/
+/* CSS Document: Redirector                                  */
+/* Last update: 02/05/2012 - 23:03h                          */
+/* Author: $CTM['LucasHP']                                   */
+/*************************************************************/
+/* Cetemaster Services, Limited                              */
+/* Copyright (c) 2010-2013. All Rights Reserved,             */
+/* www.cetemaster.com.br / www.cetemaster.com                */
+/*************************************************************/
+ 
+@charset "utf-8";
+body
+{
+	background:#fff url(../../style_images/Harmony/bg.gif) fixed;
+	font:11px Tahoma, Geneva, sans-serif;
+}
+a
+{
+	color: #284b72;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #528f6c;
+	text-decoration: underline;
+}
+#all
+{
+	margin:0 auto;
+	/*border:3px solid #ddd;*/
+	background:#eee;
+}
+#redirector
+{
+	width: 500px;
+	margin: 150px auto 0 auto;
+}
+.box-content
+{
+	display:block;
+	clear:both;
+	color:#444;
+	font:11px Tahoma, Geneva, sans-serif;
+	background:#fff url(../../style_images/Harmony/water-mark.jpg) no-repeat 685px center;
+	border:1px solid #d7d7d7;
+	padding:1px;
+	margin:5px 0;
+}
+.box-content p
+{
+	display:block;
+	padding:5px 10px; 
+	text-align:justify;
+}
+.header
+{
+	background:url(../../style_images/Harmony/gradient.gif) repeat-x;
+	height:30px;
+	display:block;
+}
+.header span
+{
+	background:url(../../style_images/Harmony/box-gm.png) no-repeat;
+	display:block;
+	font:bold 11px Tahoma, Geneva, sans-serif;
+	color:#fff;
+	text-shadow:0 0 4px #333;
+	padding:10px 40px;
+}
+.desc
+{
+	font-size: 0.8em;
+	color: #606060;
+}

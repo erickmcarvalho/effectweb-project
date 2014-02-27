@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings creator="(CTM) Cetemaster Services" type="settings" system="Effect Web 2" update="14/09/2013">
+	<line>
+		<command>insert</command>
+		<insert>after</insert>
+		<syntax>
+/*****************************************************************************
+	@ WebReferer Settings
+	@ Configurações de redirecionamentos e referências do WebSite
+	@ TRUE = Sim
+	@ FALSE = Não
+*****************************************************************************/
+$CTM_SETTINGS['WEBREFERER']['REDIRECT']['LOGIN']['REDIRECT_TO_CP'] = TRUE; // -- Redirecionar diretamente ao painel do usuário ao logar
+		</syntax>
+		<search>
+$CTM_SETTINGS['WEBCACHE']['RANKINGS']['MINUTES'] = 30; // -- Minutos para atualização dos Rankings (Padrão -> 30)
+		</search>
+	</line>
+</settings>

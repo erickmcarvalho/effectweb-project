@@ -1,0 +1,99 @@
+a {
+	color: #666;
+}
+header#top a, footer#bottom a {
+	color: #aaa
+}
+header#top a:hover, footer#bottom a:hover {
+	text-decoration: underline;
+}
+nav#topmenu {
+	background: #333;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#333), to(#2b2b2b));
+	background: -moz-linear-gradient(#333, #2b2b2b);
+	background: linear-gradient(#333, #2b2b2b);
+	-pie-background: linear-gradient(#333, #2b2b2b);
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #000;
+}
+.button {
+	border: 1px solid #000;
+	background: #444;
+}
+
+/* -----------------------------------------------------------
+	Ajax Loading
+----------------------------------------------------------- */
+#ajaxLoading
+{
+	background-color:#6f8f52;
+	color:#fff;
+	text-align:center;
+	padding:6px;
+	height: 2%;
+	width:8%;
+	top:0px;
+	left:46%;
+	border-radius:0 0 5px 5px;
+	-moz-border-radius:0 0 5px 5px;
+	-webkit-border-bottom-left-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	z-index:10000;
+	position:fixed;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+/* -----------------------------------------------------------
+	Input Radio (Yes/No)
+----------------------------------------------------------- */
+span.yesno_yes,span.yesno_no
+{
+	font:Verdana, Geneva, sans-serif;
+	display:inline-block;
+	padding:3px;
+	min-width:50px;
+	max-width:100%;
+	text-align:center;
+}
+span.yesno_yes input, span.yesno_no input
+{
+	margin-right:10px;
+}
+span.yesno_yes
+{
+	background:#e3f6e5;
+	border:1px solid #b4e3b9;
+	border-right:0;
+	border-top-left-radius:6px;
+	border-bottom-left-radius:6px;
+	-moz-border-radius-top-left:6px;
+	-moz-border-radius-bottom-left:6px;
+	-webkit-border-top-left-radius:6px;
+	-webkit-border-bottom-left-radius:6px;
+}
+span.yesno_no
+{
+	background:#f6e3e3;
+	border:1px solid #e3b4b4;
+	border-left:0;
+	border-top-right-radius:6px;
+	border-bottom-right-radius:6px;
+	-moz-border-radius-top-right:6px;
+	-moz-border-radius-bottom-right:6px;
+	-webkit-border-top-right-radius:6px;
+	-webkit-border-bottom-right-radius:6px;
+}
+/* -----------------------------------------------------------
+	Image Class
+----------------------------------------------------------- */
+.image {
+	opacity: 0.6;
+	-moz-opacity: 0.6;
+	filter: alpha(opacity=60);
+}
+.image:hover {
+	opacity: 0.9;
+	filter: alpha(opacity=99);
+	-moz-opacity: 0.9;
+}

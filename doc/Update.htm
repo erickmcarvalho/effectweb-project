@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Effect Web 2 - Update Guide</title>
+<style type="text/css">
+body{background:#eee; color:#333; font:13px "Myriad Pro", Verdana, Tahoma; width:800px; margin:0 auto;}
+a{color:#09f; text-decoration:none;} a:hover{text-decoration:underline;}
+h1{margin:10px; color:#555; font:normal 22px "Myriad Pro", Verdana, Tahoma; background:url(http://i.imgur.com/01oRFip.png) no-repeat; width:270px; height:64px;}
+#info{box-shadow:0 0 10px #ccc; -moz-box-shadow:0 0 10px #ccc; -webkit-box-shadow:0 0 10px #ccc; background:#fff; padding:20px; border:1px solid #ddd; border-left:5px solid #ccc; border-right:5px solid #ccc; border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;}
+#info h3{font-size:16px; color:#333; padding:0 0 3px 0; margin:0 0 3px 0; border-bottom:1px dashed #999; letter-spacing:-0.5px;}
+#info dl{color:#333; margin-bottom:10px;}
+#info dt, dd{padding:3px 0; border-bottom:1px dashed #e1e1e1;}
+#info dt{float:left; font-weight:bold;}
+#info dd{text-align:right;}
+#info p{color:#333;}
+#content{padding:20px;}
+#content h3{font-size:16px; color:#555; text-shadow:1px 1px 0 #999; padding:0 0 5px 0; margin:0 0 5px 0; border-bottom:1px dotted #03283a;}
+#content p{margin:0 0 40px 0;}
+#content a{color:#555; text-decoration:underline;}
+#content ul{margin:-30px 0 40px -15px; list-style:none;}
+#cr{position:fixed; bottom:20px; left:50px;}
+</style>
+</head>
+<body>
+<h1><!-- Cetemaster Services --></h1>
+	<div id="info">
+		<h3>Informa&#231;&#245;es</h3>
+		<dl>
+			<dt>Nome:</dt>
+			<dd>Effect Web 2 Beta</dd>
+            
+            <dt>Vers&atilde;o:</dt>
+            <dd>2.0.0 Beta 8 (20007)</dd>
+            
+            <dt>Build:</dt>
+            <dd>2.0.0.7</dd>
+            
+            <dt>Tipo:</dt>
+            <dd>Package</dd>
+            
+            <dt>Autor:</dt>
+            <dd>Cetemaster</dd>
+            
+			<dt>Website:</dt>
+			<dd><a href="http://www.cetemaster.com.br/">Cetemaster Services</a></dd>
+		</dl>
+        
+		<h3>Descri&#231;&#227;o</h3>
+		<p>
+			Este &#233; o guia de atualiza&#231;&#227;o da Effect Web 2.<br />
+			Siga os passos corretamente para que n&#227;o ocorra nenhum problema durante a atualiza&#231;&#227;o do sistema.<br />
+			D&#250;vidas, problemas, entre demais coisas, entrar em contato com nossa equipe.
+		</p>
+	</div>
+		<div id="content">
+        	<h3>Requerimentos no servidor de hospedagem</h3>
+            <p>
+            	Para o funcionamento correto do sistema &#233; necess&#225;rio que seu servidor de hospedagem tenha os seguintes requisitos:
+            </p>
+            <ul>
+            	<li>&raquo; Vers&atilde;o do PHP: 5.2.x (n&atilde;o &eacute; com PHP 5.3 ou superiores)</li>
+				<li>&raquo; ionCube PHP Loader instalado (vers&#227;o m&#237;nima: 4.0.4)</li>
+                <li>&raquo; Extens&atilde;o MSSQL instalada</li>
+                <li>&raquo; Extens&atilde;o cURL instalada</li>
+                <li>&raquo; Extens&atilde;o Sockets instalada (opcional, por&eacute;m recomendado)</li>
+                <li>&raquo; Extens&atilde;o GD2 instalada</li>
+                <li>&raquo; Extens&atilde;o ZIP instalada (opcional, por&eacute;m recomendado)</li>
+			</ul>
+                
+			<h3>Passo 1: Enviar arquivos</h3>
+			<p>
+				Envie todos os arquivos da Effect Web 2 que se encontra na pasta "Upload" do Package <span style="color: #F00">com exce&#231;&#227;o dos seguintes</span>:
+            </p>
+            <ul>
+            	<li>cache/</li>
+                <li>control/Data/</li>
+                <li>control/Settings.php</li>
+			</ul>
+            
+            <h3>Passo 2: Permiss&#227;o ao atualizador</h3>
+			<p>
+            	Este passo poder&#225; ser ignorado caso j&#225; tenha sido feito ao instalar/atualizar o sistema antes.<br />
+				Adicione na <span style="color: green;">Settings.php</span>, na linha <span style="color: #F60">$CTM_SETTINGS[&#39;ADMINCONTROLPANEL&#39;][&#39;SYSTEM_MANAGE&#39;]</span> o login da sua conta para ter acesso ao atualizador.
+            </p>
+            
+            <h3>Passo 3: Atualiza&#231;&#227;o do sistema</h3>
+			<p>
+				Os arquivos est&#227;o prontos para iniciar a atualiza&#231;&#227;o.<br />
+				Acesse o sistema pelo AdminCP (www.exemplo.com/admin) para abrir o atualizador e seguir os passos.<br />
+                <span style="color: #F00">&#201; de extrema import&#226;ncia que os passos devem ser seguidos com m&#225;xima de aten&#231;&#227;o poss&#237;vel para que n&#227;o ocorra erros durante a atualiza&#231;&#227;o.</span>
+			</p>
+			<div id="cr">
+				Copyright &copy; 2013 <a href="http://www.cetemaster.com.br/">Cetemaster Services</a>
+			</div>
+		</div>
+</body>
+</html>

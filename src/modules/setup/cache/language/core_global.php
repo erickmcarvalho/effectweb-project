@@ -1,0 +1,31 @@
+<?php
+
+$CTM_LANG['GlobalTitle'] = "Effect Web 2 Installer:";
+$CTM_LANG['Sidebar']['Sections']['Install']['Requirements'] = "Requerimentos";
+$CTM_LANG['Sidebar']['Sections']['Install']['LicenseTerms'] = "Termos de Licença";
+$CTM_LANG['Sidebar']['Sections']['Install']['DBSettings'] = "Configurações de SQL";
+$CTM_LANG['Sidebar']['Sections']['Install']['SystemSettings'] = "Configurações do Sistema";
+$CTM_LANG['Sidebar']['Sections']['Install']['AdminAccount'] = "Conta de Administrador";
+$CTM_LANG['Sidebar']['Sections']['Install']['Installation'] = "Instalação";
+$CTM_LANG['Sidebar']['Sections']['Install']['Finished'] = "Finalizado";
+$CTM_LANG['Sidebar']['Sections']['Upgrade']['Login'] = "Login do Administrador";
+$CTM_LANG['Sidebar']['Sections']['Upgrade']['Requirements'] = "Requerimentos";
+$CTM_LANG['Sidebar']['Sections']['Upgrade']['Versions'] = "Atualizações a instalar";
+$CTM_LANG['Sidebar']['Sections']['Upgrade']['Settings'] = "Arquivo de configuração";
+$CTM_LANG['Sidebar']['Sections']['Upgrade']['Details'] = "Detalhes das atualizações";
+$CTM_LANG['Sidebar']['Sections']['Upgrade']['Installation'] = "Instalação";
+$CTM_LANG['Sidebar']['Sections']['Upgrade']['Finished'] = "Finalizado";
+$CTM_LANG['Sidebar']['Sections']['Repair']['Login'] = "Login do Administrador";
+$CTM_LANG['Sidebar']['Sections']['Repair']['Options'] = "Opções de Reparo";
+$CTM_LANG['Sidebar']['Sections']['Repair']['DBRepair'] = "Opções de Reparo";
+$CTM_LANG['Sidebar']['Sections']['Repair']['AdminAccount'] = "Conta de Administrador";
+$CTM_LANG['Sidebar']['Sections']['Repair']['Installation'] = "Instalação";
+$CTM_LANG['Sidebar']['Sections']['Repair']['Finished'] = "Finalizado";
+$CTM_LANG['NextStep'] = "Avançar >";
+$CTM_LANG['DBConnectError'] = "Erro ao conectar-se ao banco de dados";
+$CTM_LANG['Default']['HTML'] = "Inicial";
+$CTM_LANG['Default']['Step'] = "Inicial";
+$CTM_LANG['Default']['Welcome'] = "Bem vindo ao instalador da <strong>Effect Web 2</strong>.<br />Selecione abaixo o que você deseja executar.";
+$CTM_LANG['Default']['Buttons']['Install'] = "Instalar";
+$CTM_LANG['Default']['Buttons']['Upgrade'] = "Atualizar";
+$CTM_LANG['Default']['Buttons']['Repair'] = "Reparar";

@@ -1,0 +1,243 @@
+* {
+	padding:0px;
+	margin:0px;
+}
+div.itemDetails .tooltip-tl {
+	background: none;
+	position: relative; /* for close button */
+}
+
+div.itemDetails .tooltip-tr {
+	padding: 0px 15px 0px 15px;                             
+    background: none;
+}
+
+div.itemDetails .tooltip-t {                            
+    background: none;
+	height:2px;
+}
+
+div.itemDetails.tooltip-l {                       
+    background: none;
+}
+
+div.itemDetails .tooltip-r {
+	padding: 0px 15px 0px 15px;                       
+    background: none;
+}
+
+div.itemDetails .tooltip-m {
+	background: #000000;
+	overflow: hidden;
+	width:250px;
+    opacity: 0.75;
+    filter:alpha(opacity=75);
+    -moz-opacity: 0.75;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+div.itemDetails .tooltip-bl {                      
+    background: none;
+}
+
+div.itemDetails .tooltip-br {
+	padding: 0px 15px 0px 15px;                          
+    background: none;
+}
+
+div.itemDetails .tooltip-b {                       
+    background: none;
+	height:2px;
+}
+
+
+div.itemDetails .tooltip-b .tooltip-c-arrow {          
+    background: none;
+	height:2px;
+}
+
+div.itemDetails .tooltip-b .tooltip-l-arrow {        
+    background: none;
+	height:2px;
+}
+
+div.itemDetails .tooltip-b .tooltip-r-arrow {          
+    background: none;
+	height:2px;
+}
+
+div.itemDetails.tooltip-t .tooltip-c-arrow {          
+    background: none;
+	height:2px;
+}
+
+div.itemDetails .tooltip-t .tooltip-l-arrow {         
+    background: none;
+	height:2px;
+}
+
+div.itemDetails .tooltip-t .tooltip-r-arrow {           
+    background: none;
+	height:2px;
+}
+
+
+div.itemDetails a.tooltip-close {
+    display:block;
+    overflow:hidden;
+	position: absolute;
+	top: 21px; 
+	left: 240px;
+	width: 18px;
+	height: 18px;
+	background: url(dark/close.png) 0 0 no-repeat;
+	cursor: pointer;
+}
+
+div.itemDetails a.tooltip-close span {
+  display:none;
+}
+
+#itemDetailsBox
+{
+    font-family:arial;
+    font-size:12px;  
+	
+}                            
+#itemDetails p
+{  
+    margin:0;
+    padding:0;  
+}
+#itemDetails h2 
+{  
+    height:28px;
+    margin:0;
+    padding:0;
+    font:bold 12px Arial, Helvetica, sans-serif;
+    color:#ffff33;
+    text-align:center;
+} 
+#itemDetails h2.excellent
+{
+    color:#093;
+}
+#itemDetails h2.ancient
+{
+    color:#0F0;
+	background-color: #06F;
+	height: 18px;
+}
+#itemDetails h2.socket
+{
+    color: #60F;
+}
+#itemDetails .info
+{
+    padding-bottom:15px;
+    font:bold 10px Arial, Helvetica, sans-serif;
+    color:#fff;
+    text-align:center;
+}
+#itemDetails .harmony
+{
+	color: #FC0;
+}
+#itemDetails .socketTitle
+{
+	font:bold 11px Arial, Helvetica, sans-serif;
+	color: #F0F;
+}
+#itemDetails .socketFree
+{
+	color: #666;
+}
+#itemDetails .info br 
+{
+    line-height:1px;
+}
+#itemDetails .itemBlue
+{
+	list-style: none;
+    padding-bottom:15px;
+    font:bold 10px Arial, Helvetica, sans-serif;
+    color:#6fd5ff;
+    text-align:center;
+}
+#itemDetails ul#requirement li
+{
+	list-style: none;
+    font:bold 10px Arial, Helvetica, sans-serif;
+    color:#FFF;
+    text-align:center;
+	background-color: #000;
+}
+#itemDetails ul#requirement li.no
+{
+    background-color: #C00;
+}
+#itemDetails ul#classUse li
+{
+	list-style: none;
+    font:bold 10px Arial, Helvetica, sans-serif;
+    color:#FFF;
+    text-align:center;
+	background-color: #000;
+}
+#itemDetails ul#classUse li.no
+{
+    background-color: #C00;
+}
+
+
+
+/* Show Vault Interface */
+.vaultBox {                
+    width: 300px;
+    height: 589px;
+    background-image: url(../images/vault.png); 
+}
+
+.vaultBox #vaultName {                
+    position: relative;
+    top: 17px;  
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    color: #fff;
+}
+
+.vaultBox ul.items {                   
+    position: relative;
+    top: 69px;
+    left: 26px;               
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;                 
+    width: 251px;
+    height: 474px;    
+}
+.vaultBox ul.items li {                
+    width: 96%;
+    height: 17px;    
+    margin: 0;
+    padding-left: 8px;
+    color: #fff;
+    overflow: hidden;
+    list-style: none; 
+    background: none;
+}
+.vaultBox ul.items li:hover {                
+    width: 96%;
+    height: 17px;    
+    margin: 0;    
+    padding-left: 8px;
+    color: #000;
+    background-color: #FFF;
+    overflow: hidden; 
+}
+.vaultBox ul.items li:hover {                
+    cursor: pointer; 
+}

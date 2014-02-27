@@ -1,0 +1,67 @@
+//=============================================================
+// Cetemaster Services
+// www.cetemaster.com.br / www.cetemaster.com
+//=============================================================
+// Effect Web - MuOnline Suite Software
+// Powered by Erick-Master & Litlle
+//=============================================================
+// Register Account
+// Item Vault Bonus
+//=============================================================
+// Data by Erick-Master
+// Revision xx/11/2011
+//=============================================================
+// The items is not fixed, you can create new tables.
+// Add the items for each section defined in Settings.php
+// The Index and ID is from your Item.txt
+//=============================================================
+// Example for use:
+// 
+// Index -> Category from item in Item.txt
+// ID -> ID of item from the category in Item.txt
+// Level -> Level of item, 0-15
+// Luck -> Define luck in item, 0 = Not, 1 = Yes
+// Skill -> Define skill in item, 0 = Not, 1 = Yes
+// Additional -> Define Additional in item, 4/8/12/16/20/24/28
+// Excellent 1 -> Excellent option 1 in item, 0 = Not, 1 = Yes
+// Excellent 2 -> Excellent option 2 in item, 0 = Not, 1 = Yes
+// Excellent 3 -> Excellent option 3 in item, 0 = Not, 1 = Yes
+// Excellent 4 -> Excellent option 4 in item, 0 = Not, 1 = Yes
+// Excellent 5 -> Excellent option 5 in item, 0 = Not, 1 = Yes
+// Excellent 6 -> Excellent option 6 in item, 0 = Not, 1 = Yes
+// Set Item -> Set item ancient, 0-2
+// Level 380 -> Set refinary in item, 0 = Not, 1 = Yes
+// Harmony -> Set Jewel of Harmony, "Section,Option"
+// Socket Option 1 -> Set Socket Option 1, "Option,Level"
+// Socket Option 2 -> Set Socket Option 2, "Option,Level"
+// Socket Option 3 -> Set Socket Option 3, "Option,Level"
+// Socket Option 4 -> Set Socket Option 4, "Option,Level"
+// Socket Option 5 -> Set Socket Option 5, "Option,Level"
+//=============================================================
+// OBS:
+// Ancient only 1.0 or superior and item with ancient option
+// Level 380 only Season 3 or superior
+// Jewel of Harmony only Season 2 or superior
+// Socket Option only Season 4 or superior
+// For no Socket Option, set -2 in option
+// For free slot in Socket Option, set -1 in option
+//=============================================================
+
+0
+//======================================================================================================================================================================================================================================================================================================================================================================
+// Index	ID	Level	Luck	Skill	Additional	Excellent 1	Excellent 2	Excellent 3	Excellent 4	Excellent 5	Excellent 6		Set Item	Level 380	Harmony		Socket Option 1		Socket Option 2		Socket Option 3		Socket Option 4		Socket Option 5		Name
+//======================================================================================================================================================================================================================================================================================================================================================================
+0		26	15	0	0	28		0		0		1		0		1		0			1		1		"0,0"		"1,0"			"-1,0"			"-1,0"			"-1,0"			"-1,0"			// Legendary Staff
+6		4	15	1	1	28		1		1		1		1		1		1			0		1		"-1,0"		"-1,0"			"-1,0"			"-1,0"			"-1,0"			"-1,0"			// Buckler Shield
+end
+
+1
+//======================================================================================================================================================================================================================================================================================================================================================================
+// Index	ID	Level	Luck	Skill	Additional	Excellent 1	Excellent 2	Excellent 3	Excellent 4	Excellent 5	Excellent 6		Set Item	Level 380	Harmony		Socket Option 1		Socket Option 2		Socket Option 3		Socket Option 4		Socket Option 5		Name
+//======================================================================================================================================================================================================================================================================================================================================================================
+7		0	15	1	0	28		1		1		1		1		1		1			0		1		"-1,0"		"-1,0"			"-1,0"			"-1,0"			"-1,0"			"-1,0"			// Bronze Helm
+8		0	15	1	0	28		1		1		1		1		1		1			0		1		"-1,0"		"-1,0"			"-1,0"			"-1,0"			"-1,0"			"-1,0"			// Bronze Armor
+9		0	15	1	0	28		1		1		1		1		1		1			0		1		"-1,0"		"-1,0"			"-1,0"			"-1,0"			"-1,0"			"-1,0"			// Bronze Pants
+10		0	15	1	0	28		1		1		1		1		1		1			0		1		"-1,0"		"-1,0"			"-1,0"			"-1,0"			"-1,0"			"-1,0"			// Bronze Gloves
+11		0	15	1	0	28		1		1		1		1		1		0			0		1		"-1,0"		"-1,0"			"-1,0"			"-1,0"			"-1,0"			"-1,0"			// Bronze Boots
+end

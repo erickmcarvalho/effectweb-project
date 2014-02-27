@@ -1,0 +1,63 @@
+//=============================================================
+// Cetemaster Services
+// www.cetemaster.com.br / www.cetemaster.com
+//=============================================================
+// Effect Web - MuOnline Suite Software
+// Powered by Erick-Master & Litlle
+//=============================================================
+// Mu Item Data
+// Season 4 Socket System
+//=============================================================
+// Data by Beeware
+// Revision xx/11/2011
+//=============================================================
+// This file is in base from X-Team Servers
+//=============================================================
+// The section 0 is Socket Categorys
+// The section 1 is Socket Options
+//=============================================================
+
+0
+//==================================================================================================================================
+// Type ID		Name
+//==================================================================================================================================
+1			"Fire"
+2			"Water"
+3			"Ice"
+4			"Wind"
+5			"Lightning"
+6			"Ground"
+end
+
+1
+//==================================================================================================================================
+// ID		Type	Name				Value 1		Value 2		Value 3		Value 4		Value 5
+//==================================================================================================================================
+0		1	"Add Damage By Level"		14		17		18		19		20
+1		1	"Add Speed"			7		8		9		10		11
+2		1	"Add Minimum Damage"		30		32		35		40		50
+3		1	"Add Maximum Damage"		20		22		25		30		35
+4		1	"Add Damage"			20		22		25		30		35
+5		1	"Add BP Consumption Rate"	40		41		42		43		44
+9		2	"Mul Defense Success Rate"	10		11		12		13		14
+10		2	"Add Defense"			30		33		36		39		42
+11		2	"Add SD Rate"			7		10		15		20		30
+12		2	"Add Damage Reduction"		4		5		6		7		8
+13		2	"Add Damage Reflect"		5		6		7		8		9
+15		3	"Add Hunt HP"			8		7		6		5		4
+16		3	"Add Hunt MP"			8		7		6		5		4
+17		3	"Add Magic Damage"		37		40		45		50		60
+18		3	"Mul Attack Success Rate"	25		27		30		35		40
+19		3	"Add Item Durability Rate"	30		32		34		36		38
+20		4	"Add HP Recovery Rate"		8		10		13		16		20
+21		4	"Mul Max HP"			4		5		6		7		8
+22		4	"Mul Max MP"			4		5		6		7		8
+23		4	"Add MP Recovery Rate"		7		14		21		28		35
+24		4	"Add Max BP"			25		30		35		40		50
+25		4	"Add BP Recovery Rate"		3		5		7		10		15
+28		5	"Add Excellent Damage"		15		20		25		30		40
+29		5	"Add Excellent Damage Rate"	10		11		12		13		14
+30		5	"Add Critical Damage"		30		32		35		40		50
+31		5	"Add Critical Damage Rate"	8		9		10		11		12
+35		3	"Add Vitality"			30		32		34		36		38
+end

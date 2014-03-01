@@ -19,17 +19,17 @@ SET @UpdateData = 0;
 
 IF(@EnableCache = 1)
 BEGIN
-	IF((SELECT ConnectStat FROM MuOnline.dbo.MEMB_STAT WHERE memb___id = @Account) > 0)
+	IF((SELECT ConnectStat FROM [MuOnline].dbo.MEMB_STAT WHERE memb___id = @Account) > 0)
 	BEGIN
-		IF(NOT EXISTS(SELECT 1 FROM MuOnline.dbo.EffectWebCoinCache WHERE Account = @Account))
-			INSERT INTO MuOnline.dbo.EffectWebCoinCache (Account) VALUES (@Account);
+		IF(NOT EXISTS(SELECT 1 FROM [MuOnline].dbo.EffectWebCoinCache WHERE Account = @Account))
+			INSERT INTO [MuOnline].dbo.EffectWebCoinCache (Account) VALUES (@Account);
 
-		IF(@RowValue = 1)
-			UPDATE MuOnline.dbo.EffectWebCoinCache SET RowValue_1 = RowValue_1 + @RowValue, UpdateDate = GETDATE() WHERE Account = @Account;
-		ELSE IF(@RowValue = 2)
-			UPDATE MuOnline.dbo.EffectWebCoinCache SET RowValue_2 = RowValue_2 + @RowValue, UpdateDate = GETDATE() WHERE Account = @Account;
-		ELSE IF(@RowValue = 3)
-			UPDATE MuOnline.dbo.EffectWebCoinCache SET RowValue_3 = RowValue_3 + @RowValue, UpdateDate = GETDATE() WHERE Account = @Account;
+		IF(@RowType = 1)
+			UPDATE [MuOnline].dbo.EffectWebCoinCache SET RowValue_1 = RowValue_1 + @RowValue, UpdateDate = GETDATE() WHERE Account = @Account;
+		ELSE IF(@RowType = 2)
+			UPDATE [MuOnline].dbo.EffectWebCoinCache SET RowValue_2 = RowValue_2 + @RowValue, UpdateDate = GETDATE() WHERE Account = @Account;
+		ELSE IF(@RowType = 3)
+			UPDATE [MuOnline].dbo.EffectWebCoinCache SET RowValue_3 = RowValue_3 + @RowValue, UpdateDate = GETDATE() WHERE Account = @Account;
 	END
 	ELSE
 	BEGIN
@@ -43,11 +43,12 @@ END
 
 IF(@UpdateData = 1)
 BEGIN
-	IF(@RowValue = 1)
-		UPDATE MuOnline.dbo.MEMB_INFO SET [Cash] = [Cash] + @RowValue WHERE memb___id = @Account;
-	ELSE IF(@RowValue = 2)
-		UPDATE MuOnline.dbo.MEMB_INFO SET [Gold] = [Gold] + @RowValue WHERE memb___id = @Account;
-	ELSE IF(@RowValue = 3)
-		UPDATE MuOnline.dbo.MEMB_INFO SET [Points] = [Points] + @RowValue WHERE memb___id = @Account;
+	IF(@RowType = 1)
+		UPDATE [MuOnline].[dbo].[MEMB_INFO] SET [Cash] = [Cash] + @RowValue WHERE [memb___id] = @Account;
+	ELSE IF(@RowType = 2)
+		UPDATE [MuOnline].[dbo].[MEMB_INFO]  SET [Gold] = [Gold] + @RowValue WHERE [memb___id] = @Account;
+	ELSE IF(@RowType = 3)
+		UPDATE [MuOnline].[dbo].[MEMB_INFO]  SET [Point] = [Point] + @RowValue WHERE [memb___id] = @Account;
 END
 END
+GO

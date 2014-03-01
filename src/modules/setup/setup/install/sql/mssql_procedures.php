@@ -200,7 +200,7 @@ CREATE PROCEDURE [dbo].[CTM_GetAccountCoin]
 AS
 BEGIN
 
-SELECT (Coin.[{:coin:column_1:}] + Cache.RowValue_1) AS RowValue_1, (Coin.[{:coin:column_2:}] + Cache.RowValue_2) AS RowValue_2, (Coin.[{:coin:column_3:}] + Cache.RowValue_3) AS RowValue_3 FROM [{:coin:database:}].[dbo].[{:coin:table:}] Coin LEFT JOIN [{:mu_general:database:}].[dbo].[EffectWebCoinCache] Cache ON (Cache.Account = Coin.[{:coin:login:}]) WHERE [Coin].[{:coin:login:}] = @Account;
+SELECT (Coin.[{:coin:column_1:}] + ISNULL(Cache.RowValue_1, 0)) AS RowValue_1, (Coin.[{:coin:column_2:}] + ISNULL(Cache.RowValue_2, 0)) AS RowValue_2, (Coin.[{:coin:column_3:}] + ISNULL(Cache.RowValue_3, 0)) AS RowValue_3 FROM [{:coin:database:}].[dbo].[{:coin:table:}] Coin LEFT JOIN [{:mu_general:database:}].[dbo].[EffectWebCoinCache] Cache ON (Cache.Account = Coin.[{:coin:login:}]) WHERE [Coin].[{:coin:login:}] = @Account;
 END
 SQL
 );

@@ -11,3 +11,7 @@ Agradecemos a todos que nos ajudaram. Pedimos desculpas pelo encerramento de nos
 
 Atenciosamente,
 CTM Team Softwares
+
+==================
+
+Para adquirir a permissão de uso destes arquivos entre em contato com a www.xteamservers.com (Skype: xteam.servers)

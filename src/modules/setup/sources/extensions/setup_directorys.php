@@ -12,8 +12,6 @@
  * www.cetemaster.com.br / www.cetemaster.com
 */
 
-$install_directorys[] = "cache/core_cache";
-$install_directorys[] = "cache/core_cache/license";
 $install_directorys[] = "cache/server_cache";
 $install_directorys[] = "cache/server_cache/db_ini";
 $install_directorys[] = "cache/server_cache/db_php";

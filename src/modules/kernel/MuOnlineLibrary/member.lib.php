@@ -757,8 +757,6 @@ class MuOnline_Member extends CTM_Framework
 	*/
 	public function RemoveSkillTree($charname)
 	{
-		self::protectClass();
-		
 		if(MUSERVER_VERSION >= 5)
 		{
 			switch(SERVER_FILES)

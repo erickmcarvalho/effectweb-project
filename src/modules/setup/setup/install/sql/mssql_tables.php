@@ -411,7 +411,7 @@ $install_tables[] = array
 	),
 	"query" => <<<SQL
 CREATE TABLE [{:mu_general:database:}].[dbo].[EffectWebCoinCache] (
-	[Account] [varchar] (50) COLLATE Latin1_General_CI_AS NOT NULL ,
+	[Account] [varchar] (50) NOT NULL ,
 	[RowValue_1] [int] NOT NULL ,
 	[RowValue_2] [int] NOT NULL ,
 	[RowValue_3] [int] NOT NULL ,

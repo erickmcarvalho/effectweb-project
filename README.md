@@ -3,7 +3,7 @@ Effect Web Project
 
 Código fonte original e completo da Effect Web 2 liberado somente para os clientes. Estes códigos são privados de uso pessoal dos clientes. Todos as classes e códigos referente a checagem de licença foram removidos.
 
-Não nos responsabilizamos por qualquer vazamento destes arquivos, levando em consideração que o mesmo está liberado somente para acesso dos clientes. O uso destes arquivos são de total responsabilidade do cliente. Não há suporte, atualizações ou qualquer informação e/ou contato referente a estes arquivos e ao projeto.
+Não nos responsabilizamos por qualquer vazamento ou mal uso destes arquivos, levando em consideração que o mesmo está liberado somente destinado aos clientes. O uso destes arquivos são de total responsabilidade do cliente. Não há suporte, atualizações ou qualquer informação e/ou contato referente a estes arquivos e ao projeto.
 
 PROJETO DEFINITIVAMENTE ENCERRADO!
 
@@ -11,7 +11,3 @@ Agradecemos a todos que nos ajudaram. Pedimos desculpas pelo encerramento de nos
 
 Atenciosamente,
 CTM Team Softwares
-
-==================
-
-Para adquirir a permissão de uso destes arquivos entre em contato com a www.xteamservers.com (Skype: xteam.servers)
